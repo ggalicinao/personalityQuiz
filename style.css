@@ -1,0 +1,124 @@
+* {
+  /* Resets spacing */
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* Text */
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  /* Color */
+  background-color: #471B1C;
+}
+
+/* Question text */
+h3 {
+  background-color: #e1b06d;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+button {
+  /* Content */
+  width: 100%;
+
+  /* Border */
+  border-radius: 10px;
+  border-width: 5px;
+
+  /* Text */
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  /* Color */
+  background-color: #e1b06d;
+  border-color: #b87131;
+
+  /* Box Model - spacing */
+  padding: 15px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.resultPic {
+  max-height: 250px;
+  padding: 15px;
+}
+
+/* Images associated with each answer choice */
+.choiceImg {
+  max-height: 200px;
+}
+
+/* Includes image and button for each answer choice */
+.answerChoice {
+  padding: 15px;
+}
+
+/* Includes h1 (name of quiz) and h6 ("created by") */
+#quizHeader {
+  color: #e1b06d;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/* Start Button */
+#start {
+  font-weight: bold;
+  width: 20%;
+  background-color: #7f2114;
+  border-color: #e1b06d;
+  color: #e1b06d;
+  margin: auto;
+}
+
+#resultDescription {
+  text-align: justify;
+}
+
+#resultPics {
+  /* Flex box - used to center images */
+  display: flex;
+  justify-content: center;
+}
+
+/* Restart button */
+#restart {
+  /* Content */
+  width: 20%;
+
+  /* Text */
+  font-size: 3vh; /* responsive text */
+  font-weight: bold;
+
+  /* Color */
+  background-color: #7f2114;
+  border-color: #e1b06d;
+  color: #e1b06d;
+
+  /* Box Model */
+  margin: auto; /* centers button */
+}
+
+/* Restart button pressed */
+#restart:active {
+  background-color: #7f2114;
+}
+
+/* Includes result and result description */
+#end {
+  background-color: #e1b06d;
+  width: 60%;
+
+  /* Box Model */
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz: Who's Your Best Friend At Hogwarts?</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="quizHeader">
+      <!-- Quiz Title -->
+      <h1>Who is your best friend at Hogwarts School of Witchcraft and Wizardry?</h1>
+      <!-- Quiz Author -->
+      <h5>Created by: Gabby Galicinao</h5>
+    </div>
+
+    <!-- Button to click to start the quiz -->
+    <button id="start">Start Quiz</button>
+    
+    <!-- Question 1 -->
+    <div id="question1">
+      <h3>What is something that you admire in a friend?</h3>
+      <div class="question">
+        <!-- Option 1 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/loyalty.jpeg" alt=""><br>
+          <button id="q1a1">Loyalty</button>
+        </div>
+        <!-- Option 2 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/senseOfHumor.jpeg" alt=""><br>
+          <button id="q1a2">Sense of Humor</button>
+        </div>
+        <!-- Option 3 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/creativity.jpeg" alt=""><br>
+          <button id="q1a3">Creativity</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div id="question2">
+      <h3>Classes are out for the day! What are you and your best friend doing?</h3>
+      <div class="question">
+        <!-- Option 1 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/pranking.jpeg" alt=""><br>
+          <button id="q2a1">Pranking the professors</button>
+        </div>
+        <!-- Option 2 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/befriendingCreatures.jpeg" alt=""><br>
+          <button id="q2a2">Befriending the magical creatures</button>
+        </div>
+        <!-- Option 3 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/quidditch.jpeg" alt=""><br>
+          <button id="q2a3">Playing Quidditch</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div id="question3">
+      <h3>Where do you most likely see yourself in the future?</h3>
+      <div class="question">
+        <!-- Option 1 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/traveling.webp" alt="Picture of a world map with a passport and camera in the top right corner">
+          <br>
+          <button id="q3a1">Traveling Around the World</button>
+        </div>
+        <!-- Option 2 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/business.webp" alt=""><br>
+          <button id="q3a2">Starting Your Own Business</button>
+        </div>
+        <!-- Option 3 -->
+        <div class="answerChoice">
+          <img class="choiceImg" src="assets/rich.jpeg" alt=""><br>
+          <button id="q3a3">Rich</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Displays quiz results -->
+    <div id="end">
+      <h3 id="result"></h3>
+      <div id="resultPics">
+        <img id="weasleyPic" class="resultPic" src="assets/weasleyTwins.jpeg" alt="photo of Fred (right) and George (left) Weasley in 'Harry Potter and the Goblet of Fire'. Fred and George and portrayed by James and Oliver Phelps, respectively.">
+
+        <img id="dracoPic" class="resultPic" src="assets/dracoMalfoy.jpeg" alt="photo of Draco Malfoy in 'Harry Potter and the Prisoner of Azkaban'. Draco is portrayed by Tom Felton.">
+
+        <img id="lunaPic" class="resultPic" src="assets/lunaLovegood.jpeg" alt="photo of Luna Lovegood in 'Harry Potter and the Half-blood Prince', wearing spectrespecs and holding copies of 'The Quibbler'. Luna is portrayed by Evanna Lynch.">
+      </div>
+
+      <p id="resultDescription"></p>
+    </div>
+    
+    <!-- Restart quiz button -->
+    <button id="restart">Try Again?</button>
+    <script src="script.js"></script>
+  </body>
+</html>
